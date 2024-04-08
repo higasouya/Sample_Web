@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="jp">
+    <head>
+        <meta charset="UTF-8">
+        <title>質問・感想フォーム</title>
+        <link rel="stylesheet" href="css/recipe.css">
+    </head>
+    <body>
+        <div class="middle">
+            <h1>質問・感想フォーム</h1>
+            <div class="form1">
+                <form action="" method="post">
+                    <p><label for="name">氏名</label></p>
+                    <input id="name" type="text" name="name" value="">
+                    <p>性別</p>
+                    <label>
+                        <span class="box"><input type="radio" name="q1" value="male" >男</span>
+                    </label>
+                    <label>
+                        <span class="box"><input type="radio" name="q1" value="female" >女</span>
+                    </label>
+                    <p>年齢</p>
+                    <select>
+                        <option value="10">10代</option>
+                        <option value="20">20代</option>
+                        <option value="30">30代</option>
+                        <option value="40">40代</option>
+                        <option value="50">50代</option>
+                        <option value="60">60代</option>
+                        <option value="70">70代</option>
+                        <option value="80">80代</option>
+                        <option value="90">90代</option>
+                    </select>
+                    <p>今後見てみたいレシピ</p>
+                    <label>
+                        <span class="box"><input type="checkbox" name="q2" value="jp">和食</span>
+                    </label>
+                    <label>
+                        <span class="box"><input type="checkbox" name="q2" value="ch">中華</span>
+                    </label>
+                    <label>
+                        <span class="box"><input type="checkbox" name="q2" value="us">洋食</span>
+                    </label>
+                    <label>
+                        <span class="box"><input type="checkbox" name="q2" value="it">イタリアン</span>
+                    </label>
+                    <label>
+                        <span class="box"><input type="checkbox" name="q2" value="sweet">スイーツ</span>
+                    </label>
+                    <label>
+                        <span class="box"><input type="checkbox" name="q2" value="etc">その他</span>
+                    </label>
+                    <p><label for="free">自由コメント欄</label></p>
+                    <textarea  id="free" name="free" rows="4" cols="40">自由に意見を記述してください</textarea>
+                    <p>
+                        <button type="submit">送信</button>
+                        <button type="reser">取り消し</button>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,32 @@
+body{
+    background-color: rgb(200, 255, 255);
+}
+
+header{
+    border-bottom: 1px solid rgb(0, 150, 255);
+}
+
+.honbun{
+    margin-right: auto;
+    margin-left: auto;
+    width: 600px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-left: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+footer{
+        border-top: 1px solid rgb(0, 150, 255);
+}
+
+.hissu{
+    color: white;
+    background-color: red;
+    font-size: 70%;
+    border-radius: 5px;
+    margin-left: 1em;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <title>アンケートフォーム</title>
+    <link rel="stylesheet" href="css/form2.css">
+</head>
+<body>
+
+    <header>
+        <p style="text-align: center; color: green;">アンケート</p>
+    </header>
+
+    <div class="honbun">
+        <form action="" method="post">
+            <p>AxiZの研修をご利用いただき、誠にありがとうございます。
+            <br>以下の内容の記入及び送信をして頂けると幸いです。</p>
+            <p>会社名<span class="hissu">必須</span></p>
+            <input type="text" name="companyname" placeholder="例)株式会社テクノコア" required> 
+            <p>お名前<span class="hissu">必須</span></p>
+            <input type="text" name="name" placeholder="例)手久野 興亜" required>
+            <p>メールアドレス</p>
+            <input type="text" name="address" placeholder="例)example@gmail.com">
+            <p>年齢</p>
+            <input type="text" name="age" style="width: 4em;">
+            <p>受講コース</p>
+            <label for="course">
+                <input type="radio" name="q1" value="java">Java
+                <input type="radio" name="q1" value="infla">インフラ
+            </label>
+            <p>会場</p>
+            <select>
+                <option value="A">那覇A教室</option>
+                <option value="B">うるまB教室</option>
+                <option value="C">名護C教室</option>
+            </select>
+            <p>詳しく学びたい内容（複数選択可）</p>
+            <div style="list-style: none;">
+                <li><label><input type="checkbox" name="q2" value="manner">ビジネスマナー</label></li>
+                <li><label><input type="checkbox" name="q2" value="web">HTML/CSS</label></li>
+                <li><label><input type="checkbox" name="q2" value="JavaScript">JavaScript</li></label>
+                <li><label><input type="checkbox" name="q2" value="Java">Java</li></label>
+                <li><label><input type="checkbox" name="q2" value="DataBase">データベース</li></label>
+                <li><label><input type="checkbox" name="q2" value="Linux">Linux</li></label>
+            </div>
+            <p>ご意見</p>
+            <textarea name="free" rows="10" cols="60">自由に記述してください</textarea>
+            <p><button type="submit">送信する</button></p>
+        </form>
+    </div>
+
+    <footer>
+        <p style="text-align: center; font-size: 10px;">CopyLight(C)AxiZ</p>
+    </footer>
+    
+</body>
+</html>

@@ -1,0 +1,39 @@
+.middle{
+    text-align: center;
+}
+
+body{
+    background-image: url(../images/bg_Argyle.jpg);
+    background-repeat: repeat;
+}
+
+span{
+    font-weight: bold;
+}
+
+.curry{
+    border: 10px double #fc3030;
+}
+
+table{
+    color: rgb(244, 72, 109);
+    background-color: #f4e4a0;
+    width: 300px;
+}
+
+.chocolate{
+    display: flex;
+}
+
+.form1{
+    margin-right: auto;
+    margin-left: auto;
+    width: 700px;
+    background-color: white;
+    border: 1px solid;
+    border-radius: 10px;
+}
+
+.box{
+    border: 1px solid;
+}
